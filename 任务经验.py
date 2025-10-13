@@ -45,6 +45,6 @@ for filename in os.listdir(folder_path):
         with open(file_path, 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
 
-        print(f"{filename} 中的 characterXp 已成功增加10倍")
+        print(f"{filename} 中的任务经验已成功增加10倍")
 
 print("所有文件已处理完毕")
